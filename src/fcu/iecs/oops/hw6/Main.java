@@ -15,8 +15,8 @@ public class Main {
 		      Pokemon[] pkms1 = { pkm11, pkm12, pkm13 };
 		     player1.setPokemons(pkms1);
 		     Pokemon[] pk = player1.getPokemons();
-		   
-		    //System.out.println(player1);
+		   //for(int i=0;i<pk.length;i++)
+		    //System.out.println(pk[i].getType());
 		    Player player2 = new Player("Player Two");
 
 		    Pokemon pkm21 = new Pokemon("Seel", PokemonType.WATER, 432);
