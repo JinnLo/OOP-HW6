@@ -1,10 +1,10 @@
 package fcu.iecs.oops.hw6;
 
+import fcu.iecs.oops.hw6.Pokemon.PokemonType;
+
 public class Main {
 
-
-
-		  public static void main(String[] args) {
+	 public static void main(String[] args) {
 
 		    Player player1 = new Player("Player One");
 
@@ -13,8 +13,10 @@ public class Main {
 		    Pokemon pkm13 = new Pokemon("Psyduck", PokemonType.WATER, 89);
 
 		      Pokemon[] pkms1 = { pkm11, pkm12, pkm13 };
-		    player1.setPokemons(pkms1);
-		    
+		     player1.setPokemons(pkms1);
+		     Pokemon[] pk = player1.getPokemons();
+		   
+		    //System.out.println(player1);
 		    Player player2 = new Player("Player Two");
 
 		    Pokemon pkm21 = new Pokemon("Seel", PokemonType.WATER, 432);
@@ -29,5 +31,7 @@ public class Main {
 		  }
 
 		
+
+		 
 
 }
